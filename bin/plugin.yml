@@ -1,0 +1,11 @@
+name: CodeLock
+main: org.shanduro.codelock.CodeLock
+version: 0.1
+database: true
+commands:
+  code:
+    description: Enter the code to activate the last clicked button
+    usage: "/code <code>"
+  setcode:
+    description: Set a code for the last placed button
+    usage: "/setcode <code>"
